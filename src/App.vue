@@ -1,18 +1,37 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div class="app xs:w-screen">
+    <navigation/>
+     
+    <router-view></router-view>
+
+    <!-- <Footer/> -->
+  </div>
 </template>
 
+<script>
+import navigation from "./components/Navigation.vue"
+import Footer from "./components/footer.vue"
+export default {
+  name:"App",
+  components:{
+    navigation,
+    Footer
+  }
+};
+</script>
+
+
 <style>
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  /* margin-top: 100px; */
 }
 
 nav {
@@ -27,4 +46,6 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
 </style>
