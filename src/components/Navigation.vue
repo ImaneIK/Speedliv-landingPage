@@ -2,7 +2,7 @@
   <header :class="{'scrolled-nav' : scrolledNav}">
     <nav>
       <div class="branding">
-       <img src='@/assets/logo.png/' alt=""> 
+       <img class="w-1/5 h-auto"  src='@/assets/logo.png/' alt=""> 
       </div>
 
       <ul v-show="!mobile" class="navigation">
@@ -92,12 +92,12 @@ export default {
   }
 
   header{
-   background-color: rgba(0, 0, 0, 0.8);
+   background-color:white;
     z-index: 99;
     width: 100%;
     position: fixed;
     transition: 0.5s ease all;
-    color: #fff;
+    color: black;
     top:0;
     left: 0;
   }
@@ -118,7 +118,7 @@ export default {
 
    ul, .link{
       font-weight:500;
-      color: #fff;
+      color: black;
       list-style: none;
       text-decoration: none;
     }
@@ -146,7 +146,7 @@ export default {
       }
 
       .branding img{
-        width: 50px;
+        /* width: 150px; */
         transition: 0.5s ease all;
       }
 
@@ -216,7 +216,7 @@ export default {
         }
 
       .scrolled-nav{
-        background-color: #000;
+        background-color: white;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
       }
 
@@ -224,10 +224,12 @@ export default {
         padding: 8px 0;
       }
 
-      .scrolled-nav nav .branding img{
+      /* .scrolled-nav nav img{
         width: 40px;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-      }
+      } */
+
+     
 
 
 </style>

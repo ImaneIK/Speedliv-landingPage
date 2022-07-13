@@ -38,20 +38,7 @@ export default {
 }
 
 
-.about{
-  width: 800px;
-  height: 500px;
-  margin: 100px;
-  display: flex;
-  left: 16%;
-  top: 5%;
-  background: url("../assets/section.jpg")no-repeat center;
-  background-size: cover; 
-  border-radius: 32px;
-  align-items: center;
-  justify-content: center;
-  margin: 6rem auto;
-}
+
 
 
 

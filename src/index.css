@@ -10,15 +10,15 @@
                     /* heading section - CSS */
 
     .heading{
-        @apply relative flex lg:flex-row  px-24 lg:pt-48  xs:flex-col xs:pt-24 mb-6 
+        @apply relative flex xs:flex-col xl:flex-row lg:px-20 lg:mt-20  xs:pt-24 xs:px-6 mb-6 
     }
 
     .heading_text{
-        @apply text-left
+        @apply xs:text-center xl:text-left 
     }
 
-    .heading_image{
-        @apply lg:h-full lg:w-full xs:h-full xs:w-full
+    .heading_image img{
+        @apply h-full w-full 
     }
 
                         /* how it works section - CSS */

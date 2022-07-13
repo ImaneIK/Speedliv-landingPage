@@ -1,9 +1,11 @@
 <template>
-      <div class="about">
-  <div class="transbox">
-    <p style="font-size: 42px;">Push your product to next level.</p><br>
-    <p style="font-size: 20px;">Mauris condimentum blandit tellus ac maximus. Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. </p><br>
-    <button>Get Started</button>
+      <div class="about w-2/3 xs:w-5/6 lg:w-1/2 md:h-96 mx-auto my-24 md:scale-125 xs:scale-50">
+  <div class="transbox h-full text-white ">
+    <div class="py-12 transform-y-1/2">
+    <p class="text-3xl px-16 pt-2" style="">Push your product to next level</p><br>
+    <p class="xs:text-lg text-xl  px-12 pt-4" style="">Mauris condimentum blandit tellus ac maximus. Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. </p><br>
+    <button class="text-xs mx-auto p-4 m-2 ">Get Started</button>
+    </div>
   </div>
   </div>
 </template>
@@ -21,18 +23,30 @@ export default {
 
 
 <style>
+
+
+  
+.about{
+  position: relative;
+  background: url("../assets/section.jpg")no-repeat center;
+  height: 100%;
+  background-size: cover; 
+  border-radius: 32px;
+}
+
     .transbox {
   background-color: rgba(22, 1, 44, 0.45);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  padding: 20px;
-  margin: 0;
-  font-family: 'arial';
-  color: aqua;
-  height: 500px;
   border-radius: 32px;
 }
 
+.transbox button{
+  border-radius: 32px;
+  background-color: rgb(255,127,92); 
+}
+
+ /*
 .transbox p{
   position: relative;
   top: 35%;
@@ -49,4 +63,19 @@ export default {
   border-style: none; 
   border-radius: 32px;
 }
+
+.about{
+  width: 800px;
+  height: 500px;
+  margin: 100px;
+  display: flex;
+  left: 16%;
+  top: 5%;
+  background: url("../assets/section.jpg")no-repeat center;
+  background-size: cover; 
+  border-radius: 32px;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem auto;
+} */
 </style>
