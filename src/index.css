@@ -10,11 +10,11 @@
                     /* heading section - CSS */
 
     .heading{
-        @apply relative flex xs:flex-col xl:flex-row lg:px-20 lg:mt-20  xs:pt-24 xs:px-6 mb-6 
+        @apply flex xs:flex-col xl:flex-row lg:mt-16  xs:pt-24 mb-6 
     }
 
     .heading_text{
-        @apply xs:text-center xl:text-left 
+        @apply xs:text-center xl:text-left /*p-8*/
     }
 
     .heading_image img{
@@ -68,4 +68,8 @@
         @apply relative mt-auto mb-6 pb-6 px-0  flex flex-col space-y-14
     }
     
+
+    .plan{
+        @apply  shadow-xl  rounded-lg p-6 
+    }
 }

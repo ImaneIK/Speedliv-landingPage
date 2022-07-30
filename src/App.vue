@@ -1,5 +1,5 @@
 <template>
-  <div class="app xs:w-screen">
+  <div class="app xs:w-screen overflow-x-hidden">
     <navigation/>
      
     <router-view></router-view>

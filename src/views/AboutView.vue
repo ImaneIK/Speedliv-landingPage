@@ -1,20 +1,25 @@
-<template>
-  <advertisement></advertisement>
+<template >
+<div>
+  <h1>About Us</h1>
+  <aboutSection></aboutSection>
+</div>
+  
 </template>
 
 <script>
-import advertisement from '../components/adv.vue'
+import aboutSection from '../components/aboutSection.vue'
+
 
 
 export default {
  // eslint-disable-next-line vue/multi-word-component-names
- name: 'advertisement',
+ name: 'AboutView',
   props: {
     msg: String
   },
 
     components: {
-    advertisement,
+    aboutSection,
   }
 }
 </script>
