@@ -10,12 +10,15 @@
       <img src="../../assets/feedback4.png" />
     </div>
 
-    <div class="xs:text-center lg:text-left flex flex-col my-auto">
+    <div class="xs:text-center lg:text-left flex flex-col my-auto w-3/4 mx-auto">
       <div class="text-2xl my-2">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
 
-      <div class="text-xl font-bold pb-2">
-        Mauris condimentum blandit tellus ac maximus.<br />
-        Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. Maecenas vehicula
+      <div class="xl:text-lg xs:text-sm font-light pb-2">
+        SpeedLi took care of all our shipping and logistics needs so we could focus on
+        making sales and growing our business. They were very efficient and professional,
+        and we always felt confident that our orders were in good hands.<br />
+        We highly recommend SpeedLi to any business that needs reliable and affordable
+        shipping and logistics services.
       </div>
       <br />
       <div class="">Janne Doe</div>

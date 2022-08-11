@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {MotionPlugin} from '@vueuse/motion'
 import App from './App.vue'
 import router from './router'
-
+// import VueScrollTo from 'vue-scrollto'
+// Vue.use(VueScrollTo)
 
 library.add(far,fas)
 import './index.css'

@@ -10,7 +10,7 @@
                     /* heading section - CSS */
 
     .heading{
-        @apply flex xs:flex-col xl:flex-row lg:mt-16  xs:pt-24 mb-6 
+        @apply flex xs:flex-col xl:flex-row lg:mt-8  xs:pt-8 lg:pt-24 mb-6 
     }
 
     .heading_text{

@@ -10,15 +10,18 @@
       <img src="../../assets/feedback2.png" />
     </div>
 
-    <div class="xs:text-center lg:text-left flex flex-col my-auto">
+    <div class="xs:text-center lg:text-left flex flex-col my-auto w-3/4 mx-auto">
       <div class="text-2xl my-2">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
 
-      <div class="text-xl font-bold pb-2">
-        Mauris condimentum blandit tellus ac maximus.<br />
-        Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. Maecenas vehicula
+      <div class="xl:text-lg xs:text-sm text-lg font-light pb-2">
+        My business was growing very quickly and I needed to find a fulfillment partner
+        that could scale with me. SpeedLi has been that partner. They have always been
+        able to meet my needs, sometimes on very short notice.<br />
+        And their call center has been a huge help too, taking care of customer service so
+        I can focus on selling.
       </div>
       <br />
-      <div class="">Janne Doe</div>
+      <div class="">JOHN DOE</div>
       <br />
       <div class="opacity-50">CEO WOMEN FONDA</div>
     </div>

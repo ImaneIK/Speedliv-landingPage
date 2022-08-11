@@ -10,12 +10,15 @@
       <img src="../../assets/feedback.png" />
     </div>
 
-    <div class="xs:text-center lg:text-left flex flex-col my-auto">
+    <div class="xs:text-center lg:text-left flex flex-col my-auto mx-auto w-3/4">
       <div class="text-2xl my-2">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
 
-      <div class="text-xl font-bold pb-2">
-        Mauris condimentum blandit tellus ac maximus.<br />
-        Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. Maecenas vehicula
+      <div class="xl:text-lg xs:text-sm text-lg font-light pb-2">
+        We have been using SpeedLi for our shipping and warehousing needs for the past
+        year and have been extremely satisfied with their services. Their call center is
+        always very responsive and helpful,<br />
+        and theirShipping and warehousing services are top-notch. We would highly
+        recommend SpeedLi to anyone in need of similar services.
       </div>
       <br />
       <div class="">Janne Doe</div>

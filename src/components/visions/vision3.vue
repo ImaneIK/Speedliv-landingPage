@@ -10,15 +10,18 @@
       <img src="../../assets/feedback3.png" />
     </div>
 
-    <div class="xs:text-center lg:text-left flex flex-col my-auto">
+    <div class="xs:text-center lg:text-left flex flex-col my-auto w-3/4 mx-auto">
       <div class="text-2xl my-2">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
 
-      <div class="text-xl font-bold pb-2">
-        Mauris condimentum blandit tellus ac maximus.<br />
-        Maecenas vehicula lacinia justo, vitae tempus ligula rutrum. Maecenas vehicula
+      <div class="xl:text-lg xs:text-sm text-lg font-light pb-2">
+        I am very pleased with the shipping, warehouse and call center services provided
+        by SpeedLiv. They have helped me to save a lot of time and money. <br />The staff
+        is very professional and efficient. I would definitely recommend SpeedLiv to
+        anyone who is looking for a reliable and cost-effective provider of these
+        services.
       </div>
       <br />
-      <div class="">Janne Doe</div>
+      <div class="">JOHN DOE</div>
       <br />
       <div class="opacity-50">CEO WOMEN FONDA</div>
     </div>
