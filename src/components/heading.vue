@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="heading relative h-max justify-center max-w-max" id="home">
     <div class="floating floating_box absolute left-96 lg:top-20 w-24 h-auto z-0">
       <img src="../assets/star.png" />
@@ -62,10 +63,28 @@
   </div>
 </template>
 
+=======
+<section class="heading h-max">
+      <div class="heading_text basis-1/2 ">
+        <h1 class="text-7xl xs:text-6xl mb-8">Providing Fast and reliable quality service</h1>
+        <h2 class="text-xl mb-4">24h A Day</h2>
+        <h3 class="text-lg opacity-50 mb-4">DailyUp is the online delivery software solution for growing e-commerce merchants like you. Access discounted USPS and UPS shipping rates and print labels in no time.</h3>
+        <button class="text-white px-4 py-4 rounded-3xl bg-green-400">Get Started</button>
+      </div>
+      <div class="heading_image basis-1/2 mb-4">
+        <img src="../assets/delivery.png" />
+      </div>
+      
+    </section>
+</template>
+
+
+>>>>>>> e4d9eaa9e89cbcc4b400fd09d4ce9463f44bcccc
 <script>
 // @ is an alias to /src
 
 export default {
+<<<<<<< HEAD
   name: "heading",
   components: {},
 };
@@ -117,3 +136,11 @@ export default {
   }
 }
 </style>
+=======
+  name: 'heading',
+  components: {
+    
+  }
+}
+</script>
+>>>>>>> e4d9eaa9e89cbcc4b400fd09d4ce9463f44bcccc
